@@ -1,0 +1,16 @@
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\bin\Debug\net8.0-windows\Chastitsy.exe
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\bin\Debug\net8.0-windows\Chastitsy.deps.json
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\bin\Debug\net8.0-windows\Chastitsy.runtimeconfig.json
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\bin\Debug\net8.0-windows\Chastitsy.dll
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\bin\Debug\net8.0-windows\Chastitsy.pdb
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.Form1.resources
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.csproj.GenerateResource.cache
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.AssemblyInfoInputs.cache
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.AssemblyInfo.cs
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.csproj.CoreCompileInputs.cache
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.dll
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\refint\Chastitsy.dll
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.pdb
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\Chastitsy.genruntimeconfig.cache
+C:\Users\34062\source\repos\Chastitsy\Chastitsy\obj\Debug\net8.0-windows\ref\Chastitsy.dll
