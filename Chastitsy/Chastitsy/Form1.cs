@@ -1,3 +1,5 @@
+using System.Drawing;
+
 namespace Chastitsy
 {
     public partial class Form1 : Form
@@ -119,13 +121,41 @@ namespace Chastitsy
 
         private void picDisplay_MouseClick(object sender, MouseEventArgs e)
         {
-            Counter counter = new Counter
-            {
-                X = e.X,
-                Y = e.Y
-            };
 
-            emitter.impactPoints.Add(counter);
+            if (e.Button == MouseButtons.Right)
+            {
+                
+                for (int i = 0; i < emitter.impactPoints.Count; ++i)
+                {
+
+                    var point = emitter.impactPoints[i];
+
+                    if (point is Counter)
+                    {
+                        float gX = e.X - point.X;
+                        float gY = e.Y - point.Y;
+
+                        double s = Math.Sqrt(gX * gX + gY * gY);
+
+                        Counter ctr = (Counter)point;
+
+                        if (s <= ctr.r)
+                        {
+                            emitter.impactPoints.RemoveAt(i);
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Counter counter = new Counter
+                {
+                    X = e.X,
+                    Y = e.Y
+                };
+
+                emitter.impactPoints.Add(counter);
+            }
         }
     }
 }
