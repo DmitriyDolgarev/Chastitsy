@@ -19,7 +19,7 @@ namespace Chastitsy
 
             double s = Math.Sqrt(gX * gX + gY * gY); // считаем расстояние от центра точки до центра частицы
 
-            if (s <= r + particle.Radius) // если частица оказалось внутри окружности
+            if (s <= r - particle.Radius * 2)
             {
                 // то притягиваем ее
                 /*
@@ -28,6 +28,7 @@ namespace Chastitsy
                 particle.SpeedY += gY * Power / r2;
                 */
 
+                particle.Life = 0;
                 count++;
             }
         }
@@ -41,6 +42,13 @@ namespace Chastitsy
                    r,
                    r
                );
+            g.FillEllipse(
+                new SolidBrush(Color.Red),
+                X - r / 2,
+                Y - r / 2,
+                r,
+                r
+            );
 
             var stringFormat = new StringFormat(); // создаем экземпляр класса
             stringFormat.Alignment = StringAlignment.Center; // выравнивание по горизонтали
